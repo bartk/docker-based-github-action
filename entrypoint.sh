@@ -2,6 +2,8 @@
 
 echo test
 
-source "/root/.sdkman/bin/sdkman-init.sh"
+export HOME=root
+
+source "/$HOME/.sdkman/bin/sdkman-init.sh"
 
 sdk version
