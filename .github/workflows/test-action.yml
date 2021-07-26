@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  docker-based-github-action:
+    runs-on: ubuntu-latest
+    name: Just do something
+    steps:
+      - name: Run docker based action
+        uses: ./
