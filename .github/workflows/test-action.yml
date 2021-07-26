@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Just do something
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Run docker based action
         uses: ./
