@@ -1,8 +1,10 @@
 #!/bin/bash
 
-echo test
+echo test $HOME
 
-export HOME=root
+export HOME=/root
+
+echo test $HOME
 
 source "/$HOME/.sdkman/bin/sdkman-init.sh"
 
